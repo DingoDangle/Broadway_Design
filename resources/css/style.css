@@ -2,19 +2,31 @@ body  {
   text-align: center;
   font-family: Helvetica;
 }
+h1, h2,
+
 h1  {
   font-size: 70px;
   font-weight: bold;
 }
 
 
-
-ul  {
+ul {
   list-style-type: none;
-  padding: 0
-}
-ul, .title {
+  padding: 0;
   color: white;
+}
+li{
+  font-size: 18px;
+  margin-top: 1em;
+}
+.footer, .trademark{
+  background-color: dimgray;
+  margin-bottom: 0em;
+}
+.title {
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
+  background-position: 20%;
 }
 a {
   color:inherit;
